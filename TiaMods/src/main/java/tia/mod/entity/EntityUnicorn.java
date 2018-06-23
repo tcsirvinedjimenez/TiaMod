@@ -1,5 +1,6 @@
 package tia.mod.entity;
 
+import mod.util.handlers.SoundHandler;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.ai.EntityAIFollowParent;
 import net.minecraft.entity.ai.EntityAILookIdle;
@@ -47,8 +48,8 @@ public class EntityUnicorn extends EntityCow{
 	@Override 
 	protected SoundEvent getDeathSound() 
 	{
-		//return SoundsHandler.ENTITY_UNICORN_DEATH;
-		return super.getDeathSound();
+		return SoundHandler.ENTITY_UNICORN_DEATH;
+		//return super.getDeathSound();
 	}
 	 @Override
 		protected void initEntityAI() 

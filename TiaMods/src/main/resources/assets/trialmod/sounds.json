@@ -1,0 +1,8 @@
+{
+    "entityunicorn,death":
+    {
+        "category": "entity",
+        "subtitle": "enitty.unicorn.death",
+        "sounds": [{ "name": "trialmod:entity/unicorn/death", "stream": true}]
+    }   
+}

@@ -2,7 +2,7 @@ package com.tia.mod;
 
 public class Reference {
 
-		public static final String MODID = "opitems";
+		public static final String MODID = "trialmod";
 
 		public static final String NAME = "OPItems Mod";
 

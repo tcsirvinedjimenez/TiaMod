@@ -38,7 +38,7 @@ public class Main
 
 	@EventHandler
 
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event) {RegistryHandler.initRegistries();}
 
 	@EventHandler
 

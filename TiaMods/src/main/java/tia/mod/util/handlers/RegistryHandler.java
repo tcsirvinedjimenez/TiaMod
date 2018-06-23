@@ -37,7 +37,7 @@ public class RegistryHandler {
 	
 	public static void initRegistries()
 	{
-		//SoundsHandler.registerSounds();
+		SoundHandler.registerSounds();
 	}
 	
 	public static void postInitRegistries()
